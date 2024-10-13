@@ -4,4 +4,4 @@ output.html
 reduced_train_selected.csv
 categorize.ipynb
 synthesize.py
-hrv_stress_data.csv
+.gitignore

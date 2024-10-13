@@ -24,7 +24,7 @@ if __name__ == "__main__":
     }
 
     df = pd.DataFrame(data)
-
-    df.to_csv('hrv_stress_data.csv', mode='a', header=False, index=False)  # Append to the CSV file
+    #add your custom csv file to store your rmssd data in it 
+    df.to_csv('.csv', mode='a', header=False, index=False)  # Append to the CSV file
 
     print(df)
