@@ -19,13 +19,12 @@ if __name__ == "__main__":
     data = {
         'RMSSD ': [rmssd*100],
         'SDNN ': [sdnn*100],
-        'stressMetric':[stressMetric],
+        'condition':[stressMetric],
         
     }
 
     df = pd.DataFrame(data)
 
-    # Save the DataFrame to a CSV file
     df.to_csv('hrv_stress_data.csv', mode='a', header=False, index=False)  # Append to the CSV file
 
     print(df)
